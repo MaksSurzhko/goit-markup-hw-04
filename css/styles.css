@@ -284,6 +284,29 @@ body{
 .person-soc-list{
     display: flex;
     align-items: center;
+    margin: 0 auto;
+}
+
+.person-soc-item{
+    margin-right: 24px;
+}
+
+.person-soc-item:last-child{
+    margin-right: 0;
+}
+
+.person-soc-link{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+
+.person-svg{
+    width: 16px;
+    height: 16px;
+    margin: 30% 30% 30% 30%;
 }
  
 
