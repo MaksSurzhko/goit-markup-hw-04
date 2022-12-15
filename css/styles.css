@@ -399,15 +399,6 @@ body {
     margin: 16px 32px;
 }
 
-
-.custom-svg:hover {}
-
-
-
-
-
-
-
 /*_______Footer________*/
 
 .footer {
@@ -465,10 +456,11 @@ body {
     margin: 0;
 }
 
-.footer-soc-item {
+.footer-soc-item{
     margin: 0;
     margin-right: 16px;
 }
+
 
 .footer-soc-item:last-child {
     margin-right: 0;
@@ -483,17 +475,21 @@ body {
 }
 
 .footer-soc-link:hover {
-    background: #31D0AA
+    background: #31D0AA;
 }
 
 .footer-soc-link:focus {
-    background: #31D0AA
+    background: #31D0AA;
 }
 
 .footer-svg {
     width: 24px;
     height: 24px;
     margin: 20%;
+}
+
+.footer-svg:hover{
+    color:#4D5AE5;
 }
 
 
