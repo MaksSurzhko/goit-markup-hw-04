@@ -370,7 +370,6 @@ body {
 .customers-item {
     width: 168px;
     height: 88px;
-    
     border-radius: 4px;
     margin: 0;
     margin-right: 24px;
@@ -409,14 +408,12 @@ body {
 }
 
 .custom-svg {
-    fill: currentColor;
     width: 104px;
     height: 56px;
     margin: 16px 32px; 
+    fill: currentColor;
 }
 
-.custom-svg:hover{
-}
 
 
 /*_______Footer________*/
