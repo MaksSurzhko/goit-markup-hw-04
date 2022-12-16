@@ -170,12 +170,9 @@ body {
     border-radius: 4px;
     margin: 0;
     padding: 0;
-}
-
-.section-two-svg-item {
-    margin: 0;
-    padding: 0;
-    padding: 24px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -397,7 +394,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: red;
+    color: #8E8F99;
     border: 1px solid #8E8F99;
 }
 
@@ -406,11 +403,16 @@ body {
     border: 1px solid #4D5AE5;
 }
 
+.custom-link:focus {
+    color: #4D5AE5;
+    border: 1px solid #4D5AE5;
+}
+
 .custom-svg {
+    fill: currentColor;
     width: 104px;
     height: 56px;
     margin: 16px 32px; 
-    fill: currentColor ;
 }
 
 .custom-svg:hover{
@@ -506,7 +508,6 @@ body {
 .footer-svg {
     width: 24px;
     height: 24px;
-    margin: 20%;
 }
 
 .footer-svg:hover{
@@ -580,7 +581,26 @@ body {
 
 }
 
-.port-photo-list {}
+.port-photo-list {
+    display: flex;
+    
+}
+
+.portfolio-link{
+    display: block;
+}
+
+.port-photo-list{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.port-photo-list:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.port-photo-list:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 .portfolio-photo {
     display: block;
@@ -591,16 +611,9 @@ body {
     border: 0.5px solid #F4F4FD;
     border-top: none;
     border: 0.5px solid #F4F4FD;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    
 }
 
-.port-photo-text:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.port-photo-text:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
 
 .portfolio-name {
     font-weight: 500;
