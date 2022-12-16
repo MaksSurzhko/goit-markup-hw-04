@@ -322,6 +322,8 @@ body {
 
 .person-soc-item {
     margin-right: 24px;
+    width: 40px;
+    height: 40px;
 }
 
 .person-soc-item:last-child {
@@ -329,9 +331,11 @@ body {
 }
 
 .person-soc-link {
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     background-color: #4D5AE5;
 }
@@ -339,7 +343,6 @@ body {
 .person-svg {
     width: 16px;
     height: 16px;
-    margin: 30% 30% 30% 30%;
 }
 
 /*_______Section Customers________*/
@@ -370,34 +373,49 @@ body {
 .customers-item {
     width: 168px;
     height: 88px;
-    border: 1px solid #8E8F99;
+    
     border-radius: 4px;
     margin: 0;
     margin-right: 24px;
-    cursor: pointer;
 }
 
 .customers-item:hover {
-    border-color: #4D5AE5;
+    
 }
 
 .customers-item:focus {
-    border-color: #4D5AE5;
+    
 }
 
 .customers-item:last-child {
     margin-right: 0;
 }
 
-.custom-link {}
+.custom-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    border: 1px solid #8E8F99;
+}
 
-.custom-link:hover {}
+.custom-link:hover {
+    color: #4D5AE5;
+    border: 1px solid #4D5AE5;
+}
 
 .custom-svg {
     width: 104px;
     height: 56px;
-    margin: 16px 32px;
+    margin: 16px 32px; 
+    fill: currentColor ;
 }
+
+.custom-svg:hover{
+}
+
 
 /*_______Footer________*/
 
@@ -457,7 +475,8 @@ body {
 }
 
 .footer-soc-item{
-    margin: 0;
+    width: 40px;
+    height: 40px;
     margin-right: 16px;
 }
 
@@ -467,9 +486,11 @@ body {
 }
 
 .footer-soc-link {
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
 }
@@ -489,7 +510,6 @@ body {
 }
 
 .footer-svg:hover{
-    color:#4D5AE5;
 }
 
 
